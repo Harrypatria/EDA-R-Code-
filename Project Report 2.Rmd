@@ -1099,9 +1099,10 @@ Of particular interest here will be the rain and snow fall statistics, which I'm
 The data can be found in the data set sub-directory of the `../input` directory and it looks like this:
 
 ```{r}
-weather <- as_tibble(fread("../input/weather-data-in-new-york-city-2016/weather_data_nyc_centralpark_2016(1).csv"))
+weather <- as_tibble(fread("C:/Users/Harry Patria/Documents/Project Demo Patria & Co. R & Power BI/input/weather_data_nyc_centralpark_2016.csv"))
 
 #weather <- as_tibble(fread(cmd = "unzip -p weather-data-in-new-york-city-2016.zip"))
+
 ```
 
 ```{r}
